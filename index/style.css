@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-style: oblique, italic, bold;
+
+}
+
+.header_box{
+    width: 49%;
+    height: 200px;
+    color: rebeccapurple;
+    float: left;
+    text-align: center;
+}
+table,th,td{
+    border-collapse: collapse;
+    border: red 10px dotted;
+}
+main{
+    clear: both;
+    width: 100%;
+    height: 200px;
+}
+#img1{
+    border-radius: 100%;
+    width: 300px;
+    filter: blur(4px);
+}
+#img2{
+    border-radius: 100%;
+    width: 100px;
+    filter: grayscale(100%);
+}
+p:hover{
+    color: white;
+}
+a:hover{
+    color: red;
+}
